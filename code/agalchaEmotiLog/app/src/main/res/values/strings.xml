@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">agalcha-EmotiLog</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <!-- Fragment Labels -->
+    <string name="first_fragment_label">Emotions</string>
+    <string name="second_fragment_label">Logs</string>
+    <string name="third_fragment_label">Summary</string>
+
+    <!-- Button Labels -->
+    <string name="btn_happy">😀 Happy</string>
+    <string name="btn_sad">😢 Sad</string>
+    <string name="btn_angry">😡 Angry</string>
+    <string name="btn_excited">🤩 Excited</string>
+    <string name="btn_calm">😌 Calm</string>
+    <string name="btn_stressed">😱 Stressed</string>
+    <string name="btn_tired">😴 Tired</string>
+    <string name="btn_grateful">🙏 Grateful</string>
+    <string name="btn_celebration">🎉 Celebration</string>
+
+    <string name="btn_view_logs">📋 View Logs</string>
+    <string name="btn_summary">📊 Summary</string>
+
+    <!-- Screen Titles -->
+    <string name="logs_title">Your Logged Emotions</string>
+    <string name="summary_title">Summary of Emotions</string>
+
+    <!-- Placeholder -->
+    <string name="lorem_ipsum">Hello World!</string>
+</resources>

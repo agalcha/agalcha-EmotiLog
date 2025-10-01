@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/screenBackground"
+    android:padding="16dp"
+    tools:context=".FirstFragment">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="EmotiLog"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- 🤩 Excited -->
+
+    <Button
+        android:id="@+id/btnHappy"
+        android:layout_width="185dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="8dp"
+        android:text="😀 Happy"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="83dp" />
+
+    <Button
+        android:id="@+id/btnSad"
+        android:layout_width="185dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="105dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="97dp"
+        android:text="😢 Sad"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btnHappy" />
+
+    <Button
+        android:id="@+id/btnAngry"
+        android:layout_width="185dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="105dp"
+        android:layout_marginEnd="97dp"
+        android:text="😡 Angry"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btnSad" />
+
+    <!-- 😌 Calm -->
+
+    <Button
+        android:id="@+id/btnExcited"
+        android:layout_width="185dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="105dp"
+        android:layout_marginEnd="97dp"
+        android:text="🤩 Excited"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btnAngry" />
+
+    <!-- 😱 Stressed -->
+    <Button
+        android:id="@+id/btnCalm"
+        android:layout_width="185dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="105dp"
+        android:layout_marginEnd="97dp"
+        android:text="😌 Calm"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btnExcited" />
+
+    <!-- 😴 Tired -->
+    <Button
+        android:id="@+id/btnStressed"
+        android:layout_width="185dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="105dp"
+        android:layout_marginEnd="97dp"
+        android:text="😱 Stressed"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btnCalm" />
+
+    <!-- 🙏 Grateful -->
+    <Button
+        android:id="@+id/btnTired"
+        android:layout_width="185dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="105dp"
+        android:layout_marginEnd="97dp"
+        android:text="😴 Tired"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btnStressed" />
+
+    <!-- 🎉 Celebration -->
+
+    <Button
+        android:id="@+id/btnGrateful"
+        android:layout_width="185dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="105dp"
+        android:layout_marginEnd="97dp"
+        android:text="🙏 Grateful"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btnTired" />
+
+    <!-- Navigation Buttons -->
+
+    <Button
+        android:id="@+id/btnCelebration"
+        android:layout_width="185dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="105dp"
+        android:layout_marginEnd="97dp"
+        android:text="🎉 Celebration"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btnGrateful" />
+
+    <Button
+        android:id="@+id/btnViewLogs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:text="📋 View Logs"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btnCelebration" />
+
+    <Button
+        android:id="@+id/btnSummary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:text="📊 Summary"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btnCelebration" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
